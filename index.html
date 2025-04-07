@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="title">
+            <h1>Weather</h1>
+        </div>
+
+        <div class="form" id="form">
+            <form>
+                <input type="text" id = "input" placeholder="Enter a city" title="enter a city" required>
+                <button type="submit">SET</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- <div class="card" id = "card">
+        <h2>New-York</h2>
+        <div class="temp-img">
+            <p class="temp">12°C</p>
+            <img class="weather-icon" src="./img/sun.png" alt="weather"></img>
+        </div>
+
+
+        <div class="bottomEl">
+            <div class="humidity">
+                <p class="humidity-value">54</p>
+                <img class="humidity-icon" src="./img/humidity.png" alt="humidity"></img>
+            </div>
+
+            <div class="speed">
+                <p class="speed-value">6 kph</p>
+                <img class="speed-icon" src="./img/storm.png" alt="speed"></img>
+            </div>
+        </div>
+    </div> -->
+
+    <footer>
+        <p>2025 © Davo Corporation </p>
+    </footer>
+
+
+
+    <!-- module - т.к. экспортируем и импортируем -->
+    <script  defer src="./js/conditions.js" type="module"></script>
+    <script  defer src="./js/script.js" type="module"></script>
+</body>
+</html>
