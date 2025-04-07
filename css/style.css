@@ -159,3 +159,50 @@ footer {
     color: red;
     
 }
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 52px;
+        margin-bottom: 35px;
+    }
+    
+    .input-group {
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    button {
+        width: auto;
+        min-width: 57px;
+    }
+    
+    .card {
+        min-width: 400px;
+        padding: 20px;
+    }
+    
+    h2 {
+        font-size: 28px;
+        margin-top: 19px;
+    }
+    
+    .weather-icon {
+        width: 113px;
+        height: 113px;
+        margin-right: 21px;
+    }
+    
+    .temp {
+        font-size: 50px;
+        margin: 13px 0 24px 27px;
+    }
+    
+    .humidity-value, .speed-value {
+        font-size: 26px;
+    }
+    
+    .humidity-icon, .speed-icon {
+        width: 51px;
+        height: 51px;
+    }
+}
