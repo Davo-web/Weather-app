@@ -157,5 +157,25 @@ footer {
     justify-content: center;
     align-items: center;
     color: red;
-    
+}
+
+
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 71px;
+    min-width: 400px;
+    min-height: 239px;
+    background: rgb(183,236,255);
+    background: linear-gradient(135deg, rgba(183,236,255,1) 0%, rgba(70,114,220,1) 100%);
+}
+
+.img_card{
+    height: 200px;
+    width: 200px;
 }
