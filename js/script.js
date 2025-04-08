@@ -11,6 +11,9 @@ const input = document.querySelector("#input"); // для получения з�
 function removeCard(){ // функция удаления предыдущий карточек
     const prevCard = document.querySelector('.card'); // берём предыдущую карточку
     if (prevCard) prevCard.remove(); // если предыдущая есть - удаляем
+
+    const prevCard2 = document.querySelector('.card1');//если есть начальная карточка
+    if (prevCard2) prevCard2.remove();//удаляем
 }
 
 function showError(errorMessage) { // функция выведения ошибки
@@ -130,5 +133,3 @@ form.onsubmit = function (e) {
         }
     })
 }
-
-
