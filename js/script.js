@@ -36,19 +36,19 @@ function showCard(name, temp, humidity, wind_kph, imgPath) { // функция �
         <h2>${name}</h2>
         <div class="temp-img">
             <p class="temp">${temp}°C</p>
-            <img class="weather-icon" src= ${imgPath} alt="weather"></img>
+            <img draggable="false" class="weather-icon" src= ${imgPath} alt="weather"></img>
         </div>
 
 
         <div class="bottomEl">
             <div class="humidity">
                 <p class="humidity-value">${humidity}</p>
-                <img class="humidity-icon" src="./img/humidity.png" alt="humidity"></img>
+                <img draggable="false" class="humidity-icon" src="./img/humidity.png" alt="humidity"></img>
             </div>
 
             <div class="speed">
                 <p class="speed-value">${wind_kph} kph</p>
-                <img class="speed-icon" src="./img/storm.png" alt="speed"></img>
+                <img draggable="false" class="speed-icon" src="./img/storm.png" alt="speed"></img>
             </div>
         </div>
     </div>`;
